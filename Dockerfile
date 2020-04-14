@@ -2,7 +2,6 @@ FROM openjdk:8u232-jdk
 
 LABEL maintainer="jonathanlichi@gmail.com"
 ARG HBASE_VERSION=2.1.10
-ARG SNAPPY_VERSION=
 WORKDIR /tmp
 
 # change apt source
