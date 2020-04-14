@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hbase-config
+data:
+  HADOOP_NAMENODE_HOST: "hadoop-namenode-0.hadoop-namenode"
+  HBASE_MASTER_HOST: "hbase-master-0.hbase-master"
+  ZK_SERVERS: "zookeeper-0.zookeeper:2181,zookeeper-1.zookeeper:2181,zookeeper-2.zookeeper:2181"
